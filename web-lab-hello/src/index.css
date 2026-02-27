@@ -52,6 +52,10 @@ label {
   font-weight: 600;
 }
 
+a {
+  color: #1e3a8a;
+}
+
 input,
 select,
 textarea,
@@ -70,4 +74,9 @@ button {
   background: #1d4ed8;
   color: #ffffff;
   border: none;
+}
+
+:focus-visible {
+  outline: 3px solid #1d4ed8;
+  outline-offset: 2px;
 }

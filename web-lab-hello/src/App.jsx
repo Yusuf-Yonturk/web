@@ -10,6 +10,10 @@ function App() {
 
       <header>
         <h1>Yusuf Yonturk - Kisisel Portfolyo</h1>
+        <nav aria-label="Sayfa bolumleri">
+          <a href="#about-title">Hakkimda</a> | <a href="#projects-title">Projeler</a> |{' '}
+          <a href="#contact-title">Iletisim</a>
+        </nav>
       </header>
 
       <main id="main-content">
@@ -39,12 +43,28 @@ function App() {
           <form action="#" method="post" noValidate>
             <fieldset>
               <legend>Iletisim Formu</legend>
+              <p id="form-hint">Tum alanlar zorunludur.</p>
 
               <label htmlFor="name">Ad Soyad</label>
-              <input id="name" name="name" type="text" required minLength={2} />
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                minLength={2}
+                autoComplete="name"
+                aria-describedby="form-hint"
+              />
 
               <label htmlFor="email">E-posta</label>
-              <input id="email" name="email" type="email" required />
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                autoComplete="email"
+                aria-describedby="form-hint"
+              />
 
               <label htmlFor="subject">Konu</label>
               <select id="subject" name="subject" required defaultValue="">
@@ -57,7 +77,14 @@ function App() {
               </select>
 
               <label htmlFor="message">Mesajiniz</label>
-              <textarea id="message" name="message" rows={5} required minLength={10} />
+              <textarea
+                id="message"
+                name="message"
+                rows={5}
+                required
+                minLength={10}
+                aria-describedby="form-hint"
+              />
 
               <button type="submit">Gonder</button>
             </fieldset>
