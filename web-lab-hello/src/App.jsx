@@ -29,6 +29,36 @@ function App() {
             <p>Form, semantik yapi ve erisilebilirlik odakli bir sinif ici proje calismasi.</p>
           </article>
         </section>
+
+        <section aria-labelledby="contact-title">
+          <h2 id="contact-title">Iletisim</h2>
+          <form action="#" method="post" noValidate>
+            <fieldset>
+              <legend>Iletisim Formu</legend>
+
+              <label htmlFor="name">Ad Soyad</label>
+              <input id="name" name="name" type="text" required minLength={2} />
+
+              <label htmlFor="email">E-posta</label>
+              <input id="email" name="email" type="email" required />
+
+              <label htmlFor="subject">Konu</label>
+              <select id="subject" name="subject" required defaultValue="">
+                <option value="" disabled>
+                  Seciniz
+                </option>
+                <option value="is-teklifi">Is teklifi</option>
+                <option value="soru">Soru</option>
+                <option value="oneri">Oneri</option>
+              </select>
+
+              <label htmlFor="message">Mesajiniz</label>
+              <textarea id="message" name="message" rows={5} required minLength={10} />
+
+              <button type="submit">Gonder</button>
+            </fieldset>
+          </form>
+        </section>
       </main>
 
       <footer>
