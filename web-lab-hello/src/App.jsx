@@ -10,6 +10,8 @@ function App() {
       <h2>LAB -1</h2>
       <p>Ad Soyad: Yusuf Yontürk</p>
       <p>Ogrenci No: 240541165</p>
+      <p>Hobim: kitap</p>
+
       </div>
 
   )
