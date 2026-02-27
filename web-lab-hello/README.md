@@ -24,4 +24,4 @@
 24 ```
 25 Tarayicida http://localhost:5173 adresini ac.
 ![terminal](image.png)
-![runing](image-1.png)
+![running](image-1.png)

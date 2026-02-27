@@ -56,6 +56,10 @@ a {
   color: #1e3a8a;
 }
 
+.form-group {
+  margin-bottom: 1rem;
+}
+
 input,
 select,
 textarea,
@@ -79,4 +83,11 @@ button {
 :focus-visible {
   outline: 3px solid #1d4ed8;
   outline-offset: 2px;
+}
+
+.error-msg {
+  color: #b91c1c;
+  font-size: 0.85rem;
+  min-height: 1em;
+  display: block;
 }
