@@ -11,7 +11,6 @@ function App() {
       <p>Ad Soyad: Yusuf Yontürk</p>
       <p>Ogrenci No: 240541165</p>
       <p>Hobim: kitap</p>
-
       </div>
 
   )
