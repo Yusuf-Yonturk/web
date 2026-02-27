@@ -4,11 +4,15 @@ import profileImage from './imagey.png'
 function App() {
   return (
     <>
+      <a className="skip-link" href="#main-content">
+        Ana icerige atla
+      </a>
+
       <header>
         <h1>Yusuf Yonturk - Kisisel Portfolyo</h1>
       </header>
 
-      <main>
+      <main id="main-content">
         <section aria-labelledby="about-title">
           <h2 id="about-title">Hakkimda</h2>
           <figure>
