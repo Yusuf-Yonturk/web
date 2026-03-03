@@ -21,12 +21,12 @@ function App() {
           <h2 id="about-title">Hakkimda</h2>
           <figure>
             <img src={profileImage} alt="Yusuf Yonturk profil fotografi" width="180" />
-            <figcaption>Bilgisayar programciligi ogrencisi</figcaption>
+            <figcaption>Yazılım Mühendisliği Ogrencisi</figcaption>
           </figure>
           <p>Frontend gelistirme ve erisilebilir web arayuzleriyle ilgileniyorum.</p>
           <ul>
             <li>HTML5 ve Semantik Yapi</li>
-            <li>CSS ile responsive tasarim</li>
+            <li>CSS responsive</li>
             <li>React temelleri</li>
           </ul>
         </section>
@@ -35,11 +35,11 @@ function App() {
           <h2 id="projects-title">Projeler</h2>
           <article>
             <h3>Deney Lab Demo Sitesi</h3>
-            <p>Semantik etiketler ve temel stil kurallari ile olusturulmus demo calismasi.</p>
+            <p>Semantik etiketler ve temel stil kurallari ile  demo calismasi.</p>
           </article>
           <article>
             <h3>Lab Uygulamasi</h3>
-            <p>Form, semantik yapi ve erisilebilirlik odakli bir sinif ici proje calismasi.</p>
+            <p>Form, semantik yapi ve erisilebilirlik  proje calismasi.</p>
           </article>
         </section>
 
@@ -48,7 +48,7 @@ function App() {
           <form action="#" method="post" noValidate>
             <fieldset>
               <legend>Iletisim Formu</legend>
-              <p id="form-hint">Tum alanlar zorunludur.</p>
+              <p id="form-hint">Tum alanlar zorunlu.</p>
 
               <div className="form-group">
               <label htmlFor="name">Ad Soyad</label>
